@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fixed_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fixed" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="259,944 ps"></ZoomStartTime>
+      <ZoomEndTime time="259,951 ps"></ZoomEndTime>
+      <Cursor1Time time="260,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_fixed/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/req_A" type="logic">
+      <obj_property name="ElementShortName">req_A</obj_property>
+      <obj_property name="ObjectShortName">req_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/req_B" type="logic">
+      <obj_property name="ElementShortName">req_B</obj_property>
+      <obj_property name="ObjectShortName">req_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/data_A" type="array">
+      <obj_property name="ElementShortName">data_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/data_B" type="array">
+      <obj_property name="ElementShortName">data_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/grant_A" type="logic">
+      <obj_property name="ElementShortName">grant_A</obj_property>
+      <obj_property name="ObjectShortName">grant_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/grant_B" type="logic">
+      <obj_property name="ElementShortName">grant_B</obj_property>
+      <obj_property name="ObjectShortName">grant_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/out_valid" type="logic">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/out_data" type="array">
+      <obj_property name="ElementShortName">out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/cntA" type="array">
+      <obj_property name="ElementShortName">cntA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cntA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/cntB" type="array">
+      <obj_property name="ElementShortName">cntB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cntB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fixed/chk_en" type="logic">
+      <obj_property name="ElementShortName">chk_en</obj_property>
+      <obj_property name="ObjectShortName">chk_en</obj_property>
+   </wvobject>
+</wave_config>
