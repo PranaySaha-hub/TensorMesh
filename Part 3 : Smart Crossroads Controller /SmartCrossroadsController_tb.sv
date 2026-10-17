@@ -62,7 +62,6 @@ module tb_crossroads_simple;
     endtask
 
     initial begin
-        @(negedge clk); @(negedge clk);
 
         // Scenario 1: uniform, all four at level 2
         start(2,2,2,2);
