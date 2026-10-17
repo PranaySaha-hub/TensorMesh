@@ -15,3 +15,6 @@ so only one bit can be high, and the SELECT tick between phases has every output
 No direction can starve because each one has a wait counter that goes up whenever another direction is served, and a counter that reaches 3 overrides the densities.
 The worst case is when N is served three times in a row: then E, S and W all sit at 3, and they are served one after another, so the last of them (W) waits 3 + 2 = 5 phases. 
 So bound on waiting is 5 phases, and the testbench checker fails the run if any direction ever waits longer.
+
+## Results
+<img width="1238" height="303" alt="image" src="https://github.com/user-attachments/assets/c7d598fa-586b-4f3f-adc5-aa31841305a3" />
